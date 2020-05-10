@@ -69,6 +69,9 @@ public class MainActivity extends AppCompatActivity implements OnVideoPlayListne
         getSupportActionBar().hide();
 
 
+        System.out.println("Currently I sm on arup/profilePage branch");
+
+
         if (ActivityCompat.checkSelfPermission(this, Manifest.permission.READ_EXTERNAL_STORAGE) != PackageManager.PERMISSION_GRANTED) {
             ActivityCompat.requestPermissions(this, new String[]{Manifest.permission.READ_EXTERNAL_STORAGE}, PERMISSION_REQUEST_GALLERY);
         } else {
